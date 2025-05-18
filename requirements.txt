@@ -1,0 +1,9 @@
+# crewai
+crewai>=0.95.0
+crewai-tools>=0.25.8
+
+# LangChain
+longchain-community
+
+# Search
+duckduckgo-search
