@@ -17,6 +17,10 @@ import os
 Now = datetime.now()
 Today = Now.strftime("%d-%b-%Y")
 
+# content of test_sample.py
+def func(x):
+    return x + 1
+
 # -------------------------
 @tool("DuckDuckGo Search")
 def search_tool(search_query: str):
