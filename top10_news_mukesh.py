@@ -30,11 +30,11 @@ def search_tool(search_query: str):
 # -------------------------
 from crewai import Agent, LLM
 
-os.environ['OPENROUTER_API_KEY'] = "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"
+os.environ['OPENROUTER_API_KEY'] = "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"
 llm = LLM(
     model="openrouter/deepseek/deepseek-r1",
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key="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"
 )
 
 content_explorer = Agent (
