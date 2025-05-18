@@ -8,10 +8,10 @@ Original file is located at
 """
 
 # -------------------------
-!pip install crewai==0.95.0
-!pip install crewai-tools==0.25.8
-!pip install duckduckgo-search
-!pip install longchain-community
+pip install crewai==0.95.0
+pip install crewai-tools==0.25.8
+pip install duckduckgo-search
+pip install longchain-community
 
 # -------------------------
 from crewai import Agent, Task
